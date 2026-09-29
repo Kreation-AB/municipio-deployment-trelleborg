@@ -2,5 +2,13 @@
   "name": "municipio-se/municipio-deployment-custom",
   "license": "MIT",
   "description": "Additions for you own install of municipio.",
-  "require": {}
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/municipio-se/wp-plugin-municipio-extended"
+    }
+  ],
+  "require": {
+    "municipio/wp-plugin-municipio-extended": "v25.x-dev"
+  }
 }
