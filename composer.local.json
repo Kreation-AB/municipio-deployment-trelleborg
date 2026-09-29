@@ -9,6 +9,7 @@
     }
   ],
   "require": {
-    "municipio/wp-plugin-municipio-extended": "v25.x-dev"
+    "municipio/wp-plugin-municipio-extended": "v25.x-dev",
+    "wpackagist-plugin/kirki": "^5.1"
   }
 }
