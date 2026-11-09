@@ -2,7 +2,23 @@
   "name": "municipio-se/municipio-deployment-custom",
   "license": "MIT",
   "description": "Additions for you own install of municipio.",
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "kreation-ab/municipio-companion-trelleborg",
+        "type": "wordpress-plugin",
+        "version": "dev-master",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/Kreation-AB/municipio-companion-trelleborg.git",
+          "reference": "master"
+        }
+      }
+    }
+  ],
   "require": {
-    "wpackagist-plugin/mediaflow": "2.5.6"
+    "wpackagist-plugin/mediaflow": "2.5.6",
+    "kreation-ab/municipio-companion-trelleborg": "dev-master"
   }
 }
